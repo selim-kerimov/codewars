@@ -10,7 +10,7 @@
  * 1) "abcdef", [1,2,5]     ==> "aBCdeF"
  * 2) "abcdef", [1,2,5,100] ==> "aBCdeF" // There is no index 100.
  */
-function capitalize(string: string, indices: number[]) {
+function capitalize(string, indices) {
   return [...string].map((l, i) => indices.includes(i) ? l.toUpperCase() : l).join('');
 }
 
