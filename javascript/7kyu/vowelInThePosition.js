@@ -12,7 +12,7 @@
  * 
  * P.S. If n < 0, return false
  */
-function checkVowel(string: string, position: number) {
+function checkVowel(string, position) {
   if (position < 0) return false;
   return ['a', 'u', 'e', 'i', 'o'].includes(string[position]?.toLowerCase());
 };
