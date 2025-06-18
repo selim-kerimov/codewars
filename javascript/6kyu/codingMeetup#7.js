@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/582887f7d04efdaae3000090
 
 /**
- * 7 kyu - Coding Meetup #7 - Higher-Order Functions Series - Find the most senior developer
+ * 6 kyu - Coding Meetup #7 - Higher-Order Functions Series - Find the most senior developer
  * 
  * You will be given a sequence of objects representing data about developers who have signed up to attend the next coding meetup that 
  * you are organising.
