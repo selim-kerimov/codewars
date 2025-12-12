@@ -32,6 +32,6 @@ function generateHashtag (str) {
   return '#' + hastag
 }
 
-console.log(generateHashtag('Hello there thanks for trying my Kata'))  // shoud return: #HelloThereThanksForTryingMyKata
+console.log(generateHashtag('Hello there thanks for trying my Kata'))  // should return: #HelloThereThanksForTryingMyKata
 console.log(generateHashtag('    Hello     world   '))  // should return: #HelloWorld
-console.log(generateHashtag('     '))  // false
+console.log(generateHashtag('     '))  // should return: false

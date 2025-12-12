@@ -43,6 +43,6 @@ const reduce = (s) => {
   return [...s].map(i => +i).reduce((acc, item) => acc += item, 0)
 }
 
-console.log(orderWeight('56 65 74 100 99 68 86 180 90'))  // shoud return: '100 180 90 56 65 74 68 86 99;
+console.log(orderWeight('56 65 74 100 99 68 86 180 90'))  // should return: '100 180 90 56 65 74 68 86 99;
 console.log(orderWeight('2000 10003 1234000 44444444 9999 11 11 22 123')) 
-// shoud return: '11 11 2000 10003 22 123 1234000 44444444 9999'
+// should return: '11 11 2000 10003 22 123 1234000 44444444 9999'

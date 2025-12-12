@@ -13,7 +13,7 @@ function domainName(url) {
   return url.replace(/((https?:\/\/)?(www\.)?)/g, '').split('.')[0]
 }
 
-console.log(domainName('http://github.com/carbonfive/raygun'))  // shoud return: github
-console.log(domainName('http://www.zombie-bites.com'))  // shoud return: "zombie-bites"
-console.log(domainName('www.xakep.ru'))  // shoud return: "xakep"
-console.log(domainName('http://google.co.jp')) // shoud return: "google"
+console.log(domainName('http://github.com/carbonfive/raygun'))  // should return: github
+console.log(domainName('http://www.zombie-bites.com'))  // should return: "zombie-bites"
+console.log(domainName('www.xakep.ru'))  // should return: "xakep"
+console.log(domainName('http://google.co.jp')) // should return: "google"

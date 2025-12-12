@@ -30,5 +30,5 @@ function firstNonRepeatingLetter(s) {
   return ''
 }
 
-console.log(firstNonRepeatingLetter('stress'))  // shoud return: t
-console.log(firstNonRepeatingLetter('sTresst'))  // shoud return: r
+console.log(firstNonRepeatingLetter('stress'))  // should return: t
+console.log(firstNonRepeatingLetter('sTresst'))  // should return: r

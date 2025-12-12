@@ -23,5 +23,5 @@ function humanReadable (seconds) {
   return `${h}:${m}:${s}`
 }
 
-console.log(humanReadable(86400))  // shoud return 24:00:00
+console.log(humanReadable(86400))  // should return 24:00:00
 console.log(humanReadable(359999)) // should return: 99:59:59
