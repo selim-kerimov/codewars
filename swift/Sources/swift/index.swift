@@ -4,7 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(evenOrOdd(1))
-        print(evenOrOdd(2))
+        print(sumOfPositives([1, -4, 7, 12]))
     }
 }
