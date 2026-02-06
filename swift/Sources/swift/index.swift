@@ -4,6 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(sumOfPositives([1, -4, 7, 12]))
+        print(reverseString("Hello World"))
     }
 }
