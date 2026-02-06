@@ -4,6 +4,8 @@
 @main
 struct swift {
     static func main() {
-        print(reverseString("Hello World"))
+        print(numberToString(number: 123))
+        print(numberToString(number: 999))
+        print(numberToString(number: -100))
     }
 }
