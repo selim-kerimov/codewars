@@ -4,6 +4,7 @@
 @main
 struct swift {
     static func main() {
-        print(squareSum([1, 2, 2]))
+        print(removeFirstAndLastCharacter("person"))
+        print(removeFirstAndLastCharacter("ab"))
     }
 }
