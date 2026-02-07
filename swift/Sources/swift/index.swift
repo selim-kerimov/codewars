@@ -4,7 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(boolToWord(true))
-        print(boolToWord(false))
+        print(squareSum([1, 2, 2]))
     }
 }
