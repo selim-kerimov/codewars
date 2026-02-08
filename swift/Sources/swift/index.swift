@@ -4,7 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(removeFirstAndLastCharacter("person"))
-        print(removeFirstAndLastCharacter("ab"))
+        print(grasshopperSummation(8))
     }
 }
