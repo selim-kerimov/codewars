@@ -4,6 +4,8 @@
 @main
 struct swift {
     static func main() {
-        print(grasshopperSummation(8))
+        print(keepHydrated(3))
+        print(keepHydrated(6.7))
+        print(keepHydrated(11.8))
     }
 }
