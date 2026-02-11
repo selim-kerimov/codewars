@@ -4,9 +4,12 @@
 @main
 struct swift {
     static func main() {
-        print(isNDivisibleByXAndY(3, 1, 3))
-        print(isNDivisibleByXAndY(12, 2, 6))
-        print(isNDivisibleByXAndY(100, 5, 3))
-        print(isNDivisibleByXAndY(12, 7, 5))
+        print(disemvowelTrolls("This website is for losers LOL!"))
+
+        // N ffns bt,\nYr wrtng s mng th wrst 'v vr rd
+        print(disemvowelTrolls("No offense but,\nYour writing is among the worst I've ever read")) 
+
+        // Wht r y,  cmmnst?
+        print(disemvowelTrolls("What are you, a communist?")) 
     }
 }
