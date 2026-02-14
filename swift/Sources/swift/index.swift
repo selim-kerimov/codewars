@@ -4,7 +4,9 @@
 @main
 struct swift {
     static func main() {
-        print(squareEveryDigits(9119))
-        print(squareEveryDigits(765))
+        print(highestAndLowest("1 2 3 4 5"))
+        print(highestAndLowest("1 2 -3 4 5"))
+        print(highestAndLowest("1 9 3 4 -5"))
+        print(highestAndLowest("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
     }
 }
