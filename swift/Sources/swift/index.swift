@@ -4,9 +4,8 @@
 @main
 struct swift {
     static func main() {
-        print(highestAndLowest("1 2 3 4 5"))
-        print(highestAndLowest("1 2 -3 4 5"))
-        print(highestAndLowest("1 9 3 4 -5"))
-        print(highestAndLowest("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
+        print(decendingOrderNumber(of: 42145))
+        print(decendingOrderNumber(of: 145263))
+        print(decendingOrderNumber(of: 123456789))
     }
 }
