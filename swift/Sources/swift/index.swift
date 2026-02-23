@@ -4,6 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(mumbling("abcd"))
+        print("How can mirrors be real if our eyes aren't real".toJadenCase())
     }
 }
