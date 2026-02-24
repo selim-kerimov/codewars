@@ -4,6 +4,7 @@
 @main
 struct swift {
     static func main() {
-        print(shortestWord("bitcoin take over the world maybe who knows perhaps"))
+        print(maskCardNumber("4556364607935616"))
+        print(maskCardNumber("1"))
     }
 }
