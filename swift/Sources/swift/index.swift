@@ -4,7 +4,7 @@
 @main
 struct swift {
     static func main() {
-        print(maskCardNumber("4556364607935616"))
-        print(maskCardNumber("1"))
+        print(sumOfTwoLowestIntegers([19, 5, 42, 2, 77]))
+        print(sumOfTwoLowestIntegers([10, 343445353, 3453445, 3453545353453]))
     }
 }
