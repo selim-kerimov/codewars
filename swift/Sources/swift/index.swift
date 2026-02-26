@@ -4,9 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(countDivisors(1))
-        print(countDivisors(2))
-        print(countDivisors(12))
-        print(countDivisors(30))
+        print(sumOfMinimums([ [ 1, 2, 3, 4, 5 ], [5, 6, 7, 8, 9 ], [ 20, 21, 34, 56, 100 ] ]))
     }
 }
