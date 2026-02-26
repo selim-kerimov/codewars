@@ -22,7 +22,7 @@ func sumOfMinimums(_ numbers: [[Int]]) -> Int {
   var result = 0
 
   for arr in numbers {
-    result += arr.sorted()[0]
+    result += arr.min() ?? 0
   }
 
   return result
