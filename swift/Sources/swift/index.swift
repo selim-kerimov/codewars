@@ -4,6 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(flattenAndSort([[3, 2, 1], [4, 6, 5], [], [9, 7, 8]]))
+        print(spinWords(in: "Hey fellow warriors"))
     }
 }
