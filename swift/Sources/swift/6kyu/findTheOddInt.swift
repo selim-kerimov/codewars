@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/5264d2b162488dc400000001/train/swift
+// https://www.codewars.com/kata/54da5a58ea159efa38000836/train/swift
 
 /**
 6 kyu - Find the odd int
