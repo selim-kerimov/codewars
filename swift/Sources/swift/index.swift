@@ -4,6 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(spinWords(in: "Hey fellow warriors"))
+        print(findTheOddInt([0,1,0,1,0]))
     }
 }
