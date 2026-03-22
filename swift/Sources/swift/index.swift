@@ -4,7 +4,6 @@
 @main
 struct swift {
     static func main() {
-        // print(digitalRoot(of: 16))
-        print(digitalRoot(of: 942))
+        print(bitCounting(1234))
     }
 }
