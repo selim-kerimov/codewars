@@ -4,6 +4,7 @@
 @main
 struct swift {
     static func main() {
-        print(multiplesOf3or5(10))
+        // print(digitalRoot(of: 16))
+        print(digitalRoot(of: 942))
     }
 }
