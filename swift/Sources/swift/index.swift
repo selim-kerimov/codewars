@@ -4,7 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(countDuplicates("indivisibility"))
-        print(countDuplicates("aA11"))
+        print(duplicateEncoder("Success"))
     }
 }
