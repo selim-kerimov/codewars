@@ -4,6 +4,6 @@
 @main
 struct swift {
     static func main() {
-        print(duplicateEncoder("Success"))
+        print(persistentBugger(for: 39))
     }
 }
